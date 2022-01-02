@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
+<head>
     <meta charset="UTF-8">
     <title>CV</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/default.min.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 <body>
-
+<div class="wrapper">
+    <header>
+        <div class="portrait">
+            <img src="images/Toggoren.avatar.png" alt="Toggoren avatar">
+        </div>
+        <div class="presentation">
+            <h1>Ivan aka Toggoren Ivanov</h1>
+            <h2>Web Developer</h2>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h3>About</h3>
+            <div>
+                <p>I want to become a web developer.</p>
+            </div>
+        </section>
+        <section class="experience">
+            <h4>About</h4>
+            <div>
+                <p>Nothing yet…</p>
+            </div>
+        </section>
+        <section class="contacts">
+            <h5>Contacts</h5>
+            <ul>
+                <li>
+                    <a href="mailto:Toggoren@protonmail.com?subject=%5Bjob+offer%5D+">E-mail: Toggoren@protonmail.com</a></li>
+                <li>
+                    <a href="https://github.com/Toggoren">GitHub: Toggoren</a></li>
+                <li>
+                    <a href="https://gitlab.com/Toggoren">GitLab: Toggoren</a></li>
+                <li>
+                    <a href="https://bitbucket.org/Toggoren">Bitbucket: Toggoren</a></li>
+                <li>
+                    <a href="https://discordapp.com/users/926827854216437800">Discord: Toggoren#2100</a>
+                </li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h5>Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>JavaScript (Basic)</li>
+                <li>PHP (Basic)</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h5>Languages</h5>
+            <ul>
+                <li>
+                    <p><strong>English</strong></p>
+                    <p>A2</p>
+                </li>
+                <li>
+                    <p><strong>Russian</strong></p>
+                    <p>native speaker</p>
+                </li>
+            </ul>
+        </section>
+        <section class="code-example">
+            <h5>Code example</h5>
+            <pre><code class="language-javascript">const greet = () => "hello world!"</code></pre>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <!-- https://github.com/logos -->
+            <div class="footer-link">
+                <a href="https://github.com/Toggoren" target="_blank">
+                    <img src="images/GitHub.logo.png" alt="GitHub logo" width="120" height="44">
+                </a>
+            </div>
+            <!-- https://rs.school/images/rs_school_js.svg -->
+            <div class="footer-link">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="images/rs_school_js.logo.png" alt="RS School logo" width="120" height="44">
+                </a>
+            </div>
+        </div>
+        <div class="created">
+            <p>Created in 2022</p>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
