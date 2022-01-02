@@ -60,3 +60,11 @@ header {
     width: 100%;
     height: auto;
 }
+
+section > p, h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: yellowgreen;
+    background: black;
+    padding: 8px 24px;
+}
