@@ -14,3 +14,31 @@ html, body {
 main {
     flex: 1 1 auto;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background: black;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.footer-link {
+    padding: 0 12px;
+    margin: 12px;
+    background: yellowgreen;
+}
+
+.created {
+    align-self: flex-end;
+    color: yellowgreen;
+    padding: 0 12px;
+    margin: 12px;
+    font-weight: 700;
+}
